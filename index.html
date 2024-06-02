@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="heading">
+      <h1>To-do List</h1>
+      <p>
+        In this version of the to do list, you can add or remove tasks. You can
+        also mark tasks as completed.
+      </p>
+    </div>
+
+    <hr class="heading" />
+
+    <div class="to-do-items" id="items"></div>
+
+    <div class="to-do-functions">
+      <input type="text" name="task" id="task" placeholder="Add a task" />
+      <button type="button" onclick="addItem()">+</button>
+    </div>
+  </body>
+</html>

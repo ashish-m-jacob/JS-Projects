@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #ddffe7;
+  color: #167d7f;
+}
+
+::placeholder {
+  color: #167d7f;
+  opacity: 0.8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.heading h1,
+.heading p {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading h1 {
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+hr {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-top: 1px solid #98d7c2;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+
+.to-do-items {
+  margin-right: 25%;
+  margin-left: 25%;
+  width: 50%;
+}
+
+.iter-item {
+  margin-bottom: 1%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.delete-icon {
+  float: right;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.to-do-functions {
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 1%;
+}
+
+.to-do-functions input {
+  width: 93%;
+  padding: 1%;
+  font-size: 14px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #98d7c2;
+}
+
+.to-do-functions input:focus {
+  outline: none;
+}
+
+.to-do-functions button {
+  width: 40px;
+  height: 40px;
+  padding: 1%;
+  border-radius: 50%;
+  font-size: 18px;
+  border: none;
+  text-align: center;
+  background-color: #29a0b1;
+  color: #ddffe7;
+  cursor: pointer;
+}

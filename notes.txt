@@ -1,0 +1,14 @@
+Project Synopsis:
+- Create a simple to-do list application that allows users to add, remove, and mark tasks as complete. 
+
+
+Tasks:
+- Firstly, start with a basic HTML structure. 
+- Use JavaScript to handle user interactions and update the list dynamically. 
+- Focus on implementing features like adding new tasks, checking off completed tasks, and deleting tasks. 
+
+
+Enhancements:
+- Storing tasks in the browser’s local storage.
+- Enabling task prioritization.
+- Adding due dates.
